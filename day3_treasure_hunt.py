@@ -21,15 +21,17 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Treasure Island.")
-print("Your mission is to find the treasure.")
+print("Your mission is to find the treasure.You will be asked some question and its your choice which option u want to choose..Good luck ")
 a=input("enter left or right side of treasure: ")
 if a == "right"or a=="Right":
     print("Fall into a hole.\n Game Over")
 else:
-    b=input("there is a lake u want to swim or wait?")
+    print("1st round clear")
+    b=input("there is a lake u want to swim or wait? if u want to swim u can u will reach faster but if u wait for some time a boat will arrive at ur destination")
     if b== "swim":
         print("Attacked by trout \n Game Over.")
     else:
+        print("congratulations u have passed the second round \n  final round begins")
         c=input("which door yellow ,red or blue  ")
         if c=="yellow":
             print("You win!")
